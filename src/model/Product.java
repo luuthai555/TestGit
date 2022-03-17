@@ -4,11 +4,19 @@ public class Product {
     private int id;
     private String name;
     private double price;
+    private int categoryId =0;
 
+    public Product(int id, String name, double price, int categoryId) {
+        this.id = id;
+        this.name = name;
+        this.price = price;
+        this.categoryId = categoryId;
+    }
     public Product(int id, String name, double price) {
         this.id = id;
         this.name = name;
         this.price = price;
+        this.categoryId = categoryId;
     }
 
     public int getId() {
@@ -34,6 +42,7 @@ public class Product {
     public void setPrice(double price) {
         this.price = price;
     }
+
 
     @Override
     public String toString() {
