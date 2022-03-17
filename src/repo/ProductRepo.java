@@ -9,12 +9,12 @@ import java.util.stream.Collectors;
 public class ProductRepo {
     static List<Product> productList = new ArrayList<>();
     static {
-        productList.add(new Product(1,"Iphone",76.1));
-        productList.add(new Product(2,"Samsung",100.1));
-        productList.add(new Product(3,"Vivo",65.1));
-        productList.add(new Product(4,"Huewei",44.1));
-        productList.add(new Product(5,"Vinsmart",65.1));
-        productList.add(new Product(6,"Oppo",12.1));
+        productList.add(new Product(1,"Iphone 11",76.1));
+        productList.add(new Product(2,"Samsung S8",100.1));
+        productList.add(new Product(3,"Vivo 3",65.1));
+        productList.add(new Product(4,"Huewei Mate",44.1));
+        productList.add(new Product(5,"Vinsmart I",65.1));
+        productList.add(new Product(6,"Oppo X",12.1));
     }
 
     public List<Product> getProductList(){

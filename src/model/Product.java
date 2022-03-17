@@ -4,19 +4,18 @@ public class Product {
     private int id;
     private String name;
     private double price;
-    private int categoryId =0;
+    private Category category = null;
 
-    public Product(int id, String name, double price, int categoryId) {
+    public Product(int id, String name, double price, Category category) {
         this.id = id;
         this.name = name;
         this.price = price;
-        this.categoryId = categoryId;
+        this.category = category;
     }
     public Product(int id, String name, double price) {
         this.id = id;
         this.name = name;
         this.price = price;
-        this.categoryId = categoryId;
     }
 
     public int getId() {
