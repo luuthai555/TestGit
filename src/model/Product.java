@@ -4,13 +4,13 @@ public class Product {
     private int id;
     private String name;
     private double price;
-    private Category category = null;
+    private int categoryId = null;
 
-    public Product(int id, String name, double price, Category category) {
+    public Product(int id, String name, double price, int categoryId) {
         this.id = id;
         this.name = name;
         this.price = price;
-        this.category = category;
+        this.categoryId = categoryId;
     }
     public Product(int id, String name, double price) {
         this.id = id;
